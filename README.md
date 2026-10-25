@@ -5,8 +5,8 @@ Personal configuration and brief documentation for my daily tools.
 ## Motivation
 
 - **Reproducible setup** on a fresh install or a new machine. Just clone and create symlinks.
-- **One source of truth**, as configs live in this repor and are symlinked.
-- **Changes history**, as very change to a configuration is a commit.
+- **One source of truth**, as configs live in this repo and are symlinked.
+- **Changes history**, as every change to a configuration is a commit.
 - **Documentation** of stuff I don't want to forget in my daily coding.
 
 

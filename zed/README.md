@@ -4,8 +4,8 @@ Clone the repo and symlink the config into Zed's config directory:
 
 ```sh
 git clone <repo-url> ~/dotfiles
-ln -s ~/dotfiles/keymap.json ~/.config/zed/keymap.json
-ln -s ~/dotfiles/settings.json ~/.config/zed/settings.json
+ln -s ~/dotfiles/zed/keymap.json ~/.config/zed/keymap.json
+ln -s ~/dotfiles/zed/settings.json ~/.config/zed/settings.json
 ```
 
 If any of the files already exist, back them up or remove first. Zed reloads the keymap when the file is saved.
@@ -26,7 +26,7 @@ To debug a binding, open the key context view from the command palette and press
 
 ## Day-to-day commands
 
-These are Vim and Zed commands I haven't commited 100% to muscle memory. Here for reference.
+These are Vim and Zed commands I haven't committed 100% to muscle memory. Here for reference.
 
 | Command | Definition |
 |---|---|

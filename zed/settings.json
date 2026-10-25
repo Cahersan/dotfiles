@@ -7,13 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "theme": "One Dark",
+  "inlay_hints": {
+    "show_background": false
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "cli_default_open_behavior": "new_window",
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 400.0,
-  "buffer_font_family": "Liberation Mono",
+  "buffer_font_family": "JetBrains Mono",
   "ui_font_family": "Liberation Sans",
-  "agent_buffer_font_family": "Liberation Mono",
-  "agent_ui_font_family": "Liberation Mono",
+  "agent_buffer_font_family": "JetBrains Mono",
+  "agent_ui_font_family": "JetBrains Mono",
   "project_panel": {
     "dock": "left"
   },
@@ -22,8 +31,6 @@
     "trust_all_worktrees": true
   },
   "vim_mode": true,
-  "icon_theme": "Zed (Default)",
   "ui_font_size": 16.0,
-  "buffer_font_size": 15.0,
-  "theme": "One Dark",
+  "buffer_font_size": 14.0,
 }
