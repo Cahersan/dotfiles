@@ -1,0 +1,62 @@
+# Alacritty configuration
+#
+# Symlinked to ~/.config/alacritty/alacritty.toml.
+# Reference: https://alacritty.org/config-alacritty.html
+# Changes apply on save, no restart needed.
+
+[window]
+padding = { x = 10, y = 8 }
+# Spread leftover pixels evenly around the grid instead of at the bottom right
+dynamic_padding = true
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+# Points, not pixels: roughly Zed's 14px buffer font
+size = 11
+# Extra pixels per line, close to Zed's "comfortable" line height.
+# JetBrains Mono is already taller than most fonts, so a little goes far.
+# glyph_offset keeps the text vertically centered in the taller cell.
+offset = { x = 0, y = 3 }
+glyph_offset = { x = 0, y = 1 }
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
+# Zed's One Dark background with brighter, Ayu-style accents for contrast.
+# Every text color is at least 4.5:1 against the background, most above 7:1.
+[colors.primary]
+background = "#282c34"
+foreground = "#e6e6e6"
+
+[colors.cursor]
+text = "#282c34"
+cursor = "#73c8ff"
+
+[colors.selection]
+text = "CellForeground"
+background = "#3e4451"
+
+# Black is a bit lighter than the background so "black" text stays visible
+[colors.normal]
+black = "#3f4451"
+red = "#ff7a85"
+green = "#aad94c"
+yellow = "#ffc66d"
+blue = "#73c8ff"
+magenta = "#d8a8ff"
+cyan = "#7fdbe0"
+white = "#e6e6e6"
+
+# Bright black is the grey used for comments and hints
+[colors.bright]
+black = "#9399a3"
+red = "#ff7a85"
+green = "#aad94c"
+yellow = "#ffc66d"
+blue = "#73c8ff"
+magenta = "#d8a8ff"
+cyan = "#7fdbe0"
+white = "#ffffff"

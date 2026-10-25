@@ -14,4 +14,5 @@ Personal configuration and brief documentation for my daily tools.
 
 - [Zed](https://zed.dev) editor, configured for Vim mode on Linux.
 - [tmux](https://github.com/tmux/tmux) terminal multiplexer, with mouse support, Vim-style keys and sessions that survive reboots.
-- **TBD:** CLAUDE.md and skills, warp terminal configuration...
+- [Alacritty](https://alacritty.org) terminal, styled like Zed with brighter, high-contrast colors.
+- **TBD:** CLAUDE.md and skills...
