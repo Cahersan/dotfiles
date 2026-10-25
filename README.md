@@ -15,4 +15,5 @@ Personal configuration and brief documentation for my daily tools.
 - [Zed](https://zed.dev) editor, configured for Vim mode on Linux.
 - [tmux](https://github.com/tmux/tmux) terminal multiplexer, with mouse support, Vim-style keys and sessions that survive reboots.
 - [Alacritty](https://alacritty.org) terminal, styled like Zed with brighter, high-contrast colors.
+- [tig](https://jonas.github.io/tig/) text-mode interface for Git, with colors readable on the Alacritty palette.
 - **TBD:** CLAUDE.md and skills...

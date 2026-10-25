@@ -1,0 +1,10 @@
+# tig configuration
+#
+# Symlinked to ~/.config/tig/config.
+# Reference: https://jonas.github.io/tig/doc/tigrc.5.html
+
+# tig's default bars are white text on green/blue, unreadable with the light
+# green and blue of the Alacritty palette. Use dark text on them instead.
+color cursor        black   green   bold
+color title-focus   black   blue    bold
+color title-blur    black   blue
