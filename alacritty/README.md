@@ -14,8 +14,8 @@ Alacritty reloads the config when the file is saved.
 
 Made to look like Zed, so the editor and terminal feel the same:
 
-- **Font**: [JetBrains Mono](https://www.jetbrains.com/lp/mono/) at 11pt, about the size of Zed's 14px buffer font. Alacritty sizes fonts in points, Zed in pixels. Install it with `sudo apt install fonts-jetbrains-mono`.
-- **Line spacing**: 3 extra pixels per line, close to Zed's `comfortable` line height.
+- **Font**: [JetBrains Mono](https://www.jetbrains.com/lp/mono/) at 11pt. Alacritty sizes fonts in points, Zed in pixels, so the numbers don't match between the two. Install it with `sudo apt install fonts-jetbrains-mono`.
+- **Line spacing**: 3 extra pixels per line, roughly matching Zed's line height.
 - **Colors**: the dark gray background of One Dark, Zed's default dark theme, with brighter accents inspired by Ayu Dark for contrast. tmux uses these colors too.
 - **Padding** of 10px around the text, and the mouse pointer hides while typing.
 

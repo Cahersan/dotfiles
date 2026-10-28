@@ -11,9 +11,9 @@ dynamic_padding = true
 
 [font]
 normal = { family = "JetBrains Mono", style = "Regular" }
-# Points, not pixels: roughly Zed's 14px buffer font
+# Points, not pixels
 size = 11
-# Extra pixels per line, close to Zed's "comfortable" line height.
+# Extra pixels per line, roughly matching Zed's line height.
 # JetBrains Mono is already taller than most fonts, so a little goes far.
 # glyph_offset keeps the text vertically centered in the taller cell.
 offset = { x = 0, y = 3 }
