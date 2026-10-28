@@ -16,4 +16,5 @@ Personal configuration and brief documentation for my daily tools.
 - [tmux](https://github.com/tmux/tmux) terminal multiplexer, with mouse support, Vim-style keys and sessions that survive reboots.
 - [Alacritty](https://alacritty.org) terminal, styled like Zed with brighter, high-contrast colors.
 - [tig](https://jonas.github.io/tig/) text-mode interface for Git, with colors readable on the Alacritty palette.
+- [Obsidian](https://obsidian.md) CSS snippets for more readable notes.
 - **TBD:** CLAUDE.md and skills...

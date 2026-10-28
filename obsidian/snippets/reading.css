@@ -1,0 +1,29 @@
+/* Reading comfort: spacing, line length, contrast and x-scroll on code blocks. */
+
+body {
+  --line-height-normal: 1.8;   /* line spacing (default 1.5) */
+  --p-spacing: 1.25rem;        /* space between paragraphs (default 1rem) */
+  --file-line-width: 42rem;    /* max line length, about 75 characters (default 700px) */
+  --list-spacing: 0.25em;      /* space between list items (default 0.075em) */
+  --code-size: 0.85em;         /* code a bit smaller than body text (default 0.875em) */
+  /* --font-text-size: 1.1rem !important; make font a bit larger */
+}
+
+/* Off-white text is easier on the eyes than pure white in long notes */
+.theme-dark {
+  --text-normal: #d4d4d4;
+}
+
+/* Long code lines scroll sideways instead of wrapping (reading view only) */
+.markdown-rendered pre {
+  overflow-x: auto;
+}
+.markdown-rendered pre code {
+  white-space: pre;
+}
+
+/* More space above section headings, so the structure shows while scrolling */
+.markdown-rendered h2,
+.markdown-rendered h3 {
+  margin-top: 2em;
+}
