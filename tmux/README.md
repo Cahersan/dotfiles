@@ -36,8 +36,7 @@ Plugins:
 | [tpm](https://github.com/tmux-plugins/tpm) | Plugin manager |
 | [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) | Defaults nearly everyone agrees on |
 | [tmux-yank](https://github.com/tmux-plugins/tmux-yank) | Copy to the system clipboard |
-| [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Save and restore sessions, windows, panes, directories and pane contents |
-| [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) | Save every 15 minutes and restore on start, so sessions survive a reboot |
+| [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Save and restore sessions, windows, panes, directories and pane contents. The config restores the last save when the tmux server starts and saves every 15 minutes, so sessions survive a reboot |
 
 ## Day-to-day commands
 
