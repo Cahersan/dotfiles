@@ -20,6 +20,8 @@ body {
 }
 .markdown-rendered pre code {
   white-space: pre;
+  /* Reading view leaves variable names untagged; color them like edit mode */
+  color: var(--code-property);
 }
 
 /* More space above section headings, so the structure shows while scrolling */
